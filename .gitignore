@@ -1,3 +1,7 @@
 .idea
 cmake-build-debug
 doc/autodocs
+doc/build/
+doc/source/api/
+doc/source/doxyoutput/
+
