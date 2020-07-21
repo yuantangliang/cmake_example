@@ -11,3 +11,9 @@ int Math::add(int x, int y)
 {
     return x+y;
 }
+
+
+int Math::sub(int x, int y)
+{
+    return x-y;
+}
