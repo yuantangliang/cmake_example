@@ -3,6 +3,7 @@ project(cmake_multi__target)
 
 set(CMAKE_CXX_STANDARD 11)
 
+#add_definitions(-DTEST_DEBUG)
 
 add_subdirectory(mathlib)
 add_subdirectory(test)
