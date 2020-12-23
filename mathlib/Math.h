@@ -25,36 +25,9 @@ extern "C"
 {
 #endif
 
-/*! \brief 通用的数学计算类
- *  支持 + - 运算
- *
- * 使用示例如下：
- *@code
- *      math = Math()
- *      int sum = math.add(1, 2)
- *@endcode
- */
-class Math
-{
-public:
-    /*! \brief add 运算
-     *
-     * @details
-     * 将 x 和 y 相加并返回结果
-     *
-     * @param x 加法因子1
-     * @param y 加法因子2
-     * @return x和y之和
-     */
-    int  add(int x, int y);
-    int  sub(int x, int y);
 
-    int  errocode; ///< 错误码， 出现错误时，可以通过错误码判断错误原因
-};
 
 int  gloabl_add(int a, int b);
-
-
 
 
 #ifdef __cplusplus
